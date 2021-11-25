@@ -6,7 +6,7 @@ class WordHelper{
     }
 
     async consultarPalavra(){
-        const response = await fetch('/word');
+        const response = await fetch('https://typing-practice101.herokuapp.com/word');
         const word = await response.json();
         this._wordSize = word.wordContent.length;
         this._wordPosition = 0;

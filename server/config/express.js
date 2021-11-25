@@ -4,7 +4,7 @@ const dotenv = require('dotenv').config();
 
 //Initializing Server/Port Listenings
 //app.listen(port, hostname, () => {
-//  console.log(`Server running at http://${hostname}:${port}/`);
+//console.log(`Server running at http://${hostname}:${port}/`);
 //});
 
 const fs = require("fs");

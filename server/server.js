@@ -3,5 +3,5 @@ var http = require('http')
     dotenv = require('dotenv').config();
 
 http.createServer(app).listen(process.env.PORT || 3000, function() {
-    console.log('Servidor estutando na porta: ' + this.address().port);
+    console.log('Servidor estutando na porta: ' + JSON.stringify(this.address()));
 });

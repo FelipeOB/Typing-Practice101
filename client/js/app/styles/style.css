@@ -1,0 +1,73 @@
+*{
+    font-family: 'Shippori Antique';
+}
+
+body{
+    background-color: #3d0e61;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+}
+
+span{
+    color: #858ae3;
+}
+
+#title-content{
+    color: #f79d65;
+}
+
+#WordContent{
+    font-size: 100px;
+    margin-bottom:25px;
+    margin-top: 0;
+}
+
+.body-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#practiceInfo{
+    display: flex;
+}
+
+#practiceInfo p{
+    color: #93caf6;
+    margin-left: 50px;
+}
+
+.correct-content, .wrong-content, .timer-content, .wpm-content{
+    text-align: center;
+    margin: 0 5px;
+}
+
+textarea{
+    border-radius: 100px;
+    margin-bottom: 25px;
+    resize: none;
+}
+
+.btn-controll{
+    border-radius: 100px;
+    background-color: #93caf6;
+    color: #3d0e61;
+    font-size: 15px;
+    width: 150px;
+    height: 25px;
+    border: 0ch;
+    font-family: 'Shippori Antique';
+    font-weight: 600;
+}
+
+#start-button{
+    transform: scale(5);
+    background-color: transparent;
+    color: #858ae3;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
